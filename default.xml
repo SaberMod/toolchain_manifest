@@ -10,6 +10,7 @@
   <project path="benchmark" name="toolchain/benchmark" />
   <project path="binutils" name="toolchain/binutils" />
   <project path="build" name="toolchain/build" />
+  <project path="expat" name="toolchain/expat" />
   <project path="gcc" name="toolchain/gcc" />
   <project path="gdb" name="toolchain/gdb" />
   <project path="gmp" name="toolchain/gmp" />

@@ -8,6 +8,7 @@
            remote="aosp"
            sync-j="4" />
 
+  <project path="avr-libc" name="toolchain/avr-libc" />
   <project path="benchmark" name="toolchain/benchmark" />
   <project path="binutils" name="toolchain/binutils" />
   <project path="build" name="toolchain/build" />

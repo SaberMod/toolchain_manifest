@@ -14,6 +14,7 @@
   <project path="build" name="toolchain/build" />
   <project path="ccache" name="toolchain/ccache" />
   <project path="clang" name="toolchain/clang" />
+  <project path="cloog" name="toolchain/cloog" />
   <project path="expat" name="toolchain/expat" />
   <project path="gcc" name="toolchain/gcc" />
   <project path="gdb" name="toolchain/gdb" />
@@ -22,5 +23,8 @@
   <project path="llvm" name="toolchain/llvm" />
   <project path="mpc" name="toolchain/mpc" />
   <project path="mpfr" name="toolchain/mpfr" />
+  <project path="perl" name="toolchain/perl" />
+  <project path="ppl" name="toolchain/ppl" />
+  <project path="python" name="toolchain/python" />
 
 </manifest>

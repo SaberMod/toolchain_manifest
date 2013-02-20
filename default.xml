@@ -21,9 +21,11 @@
   <project path="gmp" name="toolchain/gmp" />
   <project path="gold" name="toolchain/gold" />
   <project path="llvm" name="toolchain/llvm" />
+  <project path="mclinker" name="toolchain/mclinker" />
   <project path="mpc" name="toolchain/mpc" />
   <project path="mpfr" name="toolchain/mpfr" />
   <project path="perl" name="toolchain/perl" />
+  <project path="polly" name="toolchain/polly" />
   <project path="ppl" name="toolchain/ppl" />
   <project path="python" name="toolchain/python" />
 

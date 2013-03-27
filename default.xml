@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="aosp"
+           fetch=".."
+           review="https://android-review.googlesource.com/" />
+  <remote  name="sm"
+           fetch="https://github.com/SaberMod" />
+  <default revision="master"
+           remote="aosp"
+           sync-j="4" />
+
+  <project path="avr-libc" name="toolchain/avr-libc" />
+  <project path="benchmark" name="toolchain/benchmark" />
+  <project path="binutils" name="toolchain/binutils" />
+  <project path="build" name="toolchain_build" remote="sm" revision="master" />
+  <project path="ccache" name="toolchain/ccache" />
+  <project path="clang" name="toolchain/clang" />
+  <project path="cloog" name="toolchain/cloog" />
+  <project path="expat" name="toolchain/expat" />
+  <project path="gcc" name="toolchain_gcc" remote="sm" revision="master" />
+  <project path="gdb" name="toolchain/gdb" />
+  <project path="gmp" name="toolchain/gmp" />
+  <project path="gold" name="toolchain/gold" />
+  <project path="llvm" name="toolchain/llvm" />
+  <project path="mclinker" name="toolchain/mclinker" />
+  <project path="mpc" name="toolchain/mpc" />
+  <project path="mpfr" name="toolchain/mpfr" />
+  <project path="perl" name="toolchain/perl" />
+  <project path="polly" name="toolchain/polly" />
+  <project path="ppl" name="toolchain/ppl" />
+  <project path="python" name="toolchain/python" />
+
+</manifest>

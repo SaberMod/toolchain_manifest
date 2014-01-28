@@ -31,5 +31,6 @@
   <project path="ppl" name="toolchain/ppl" />
   <project path="python" name="toolchain/python" />
   <project path="valgrind" name="toolchain/valgrind" />
+  <project path="yasm" name="toolchain/yasm" />
 
 </manifest>

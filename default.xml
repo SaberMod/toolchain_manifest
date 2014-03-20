@@ -5,7 +5,7 @@
            fetch="https://android.googlesource.com/toolchain/"
            review="https://android-review.googlesource.com/" />
   <remote  name="sm"
-           fetch="http://github.com/SaberMod/" />
+           fetch="https://github.com/SaberMod/" />
   <remote  name="gnu-bin-gdb"
            fetch="git://sourceware.org/git/" />
   <default revision="master"

@@ -29,7 +29,7 @@
   <project path="llvm" name="llvm" />
   <project path="mclinker" name="mclinker" />
   <project path="mpc/mpc-gnu" name="gnu-mpc" remote="sm" revision="1.0.2" />
-  <project path="mpfr/mpc-gnu" name="gnu-mpfr" remote="sm" revision="3.1.2" />
+  <project path="mpfr/mpfr-gnu" name="gnu-mpfr" remote="sm" revision="3.1.2" />
   <project path="perl" name="perl" />
   <project path="polly" name="polly" />
   <project path="ppl" name="ppl" />

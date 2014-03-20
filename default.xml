@@ -7,12 +7,12 @@
   <remote  name="sm"
            fetch="http://github.com/SaberMod/" />
   <remote  name="gnu-bin-gdb"
-           fetch="git://sourceware.org/git/"
+           fetch="git://sourceware.org/git/" />
   <default revision="master"
            remote="aosp"
            sync-j="4" />
 
-  <project path="manifest" name="toolchain_manifest" remote="sm" revision="master"
+  <project path="manifest" name="toolchain_manifest" remote="sm" revision="master" />
   <project path="avr-libc" name="avr-libc" />
   <project path="benchmark" name="benchmark" />
   <project path="binutils/binutils-gnu" name="binutils-gdb" remote="gnu-bin-gdb" revision="binutils-2_24-branch" />

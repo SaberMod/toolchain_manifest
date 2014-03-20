@@ -10,7 +10,8 @@
            fetch="git://sourceware.org/git/" />
   <default revision="master"
            remote="aosp"
-           sync-j="4" />
+           sync-j="4"
+           sync-c="true" />
 
   <project path="manifest" name="toolchain_manifest" remote="sm" revision="master" />
   <project path="avr-libc" name="avr-libc" />

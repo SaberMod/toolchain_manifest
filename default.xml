@@ -28,7 +28,7 @@
   <project path="gdb/gdb-gnu" name="binutils-gdb" remote="gnu-bin-gdb" revision="gdb-7.7-branch" />
   <project path="gmp/gmp-gnu" name="gnu-gmp" remote="sm" revision="5.1.3" />
   <project path="gold" name="gold" />
-  <project path="isl/isl-current" remote="cloog-isl" revision="isl-0.13" />
+  <project path="isl/isl-current" remote="cloog-isl" name="isl" revision="isl-0.13" />
   <project path="llvm" name="llvm" />
   <project path="mclinker" name="mclinker" />
   <project path="mpc/mpc-gnu" name="gnu-mpc" remote="sm" revision="1.0.2" />

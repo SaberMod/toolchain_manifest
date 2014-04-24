@@ -11,7 +11,7 @@
   <remote  name="cloog"
            fetch="git://repo.or.cz/cloog" />
   <remote  name="isl"
-           fetch="git://repo.or.cz/isl"
+           fetch="git://repo.or.cz/isl" />
   <default revision="master"
            remote="aosp"
            sync-j="4"

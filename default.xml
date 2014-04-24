@@ -22,13 +22,13 @@
   <project path="build" name="toolchain_build" remote="sm" revision="master" />
   <project path="ccache" name="ccache" />
   <project path="clang" name="clang" />
-  <project path="cloog/cloog-current" name="cloog.git" remote="cloog-isl"  revision="isl-0.13" />
+  <project path="cloog/cloog-current" name="cloog.git" remote="cloog-isl"  revision="tags/refs/tags/isl-0.13" />
   <project path="expat" name="expat" />
   <project path="gcc/gcc-SaberMod" name="GCC_SaberMod" remote="sm" revision="4.9.0" />
   <project path="gdb/gdb-gnu" name="binutils-gdb" remote="gnu-bin-gdb" revision="gdb-7.7-branch" />
   <project path="gmp/gmp-gnu" name="gnu-gmp" remote="sm" revision="5.1.3" />
   <project path="gold" name="gold" />
-  <project path="isl/isl-current" name="isl.git" remote="cloog-isl"  revision="cloog-0.18.2" />
+  <project path="isl/isl-current" name="isl" remote="cloog-isl"  revision="tags/refs/tags/cloog-0.18.2" />
   <project path="llvm" name="llvm" />
   <project path="mclinker" name="mclinker" />
   <project path="mpc/mpc-gnu" name="gnu-mpc" remote="sm" revision="1.0.2" />

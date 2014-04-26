@@ -29,7 +29,7 @@
   <project path="gmp/gmp-gnu" name="gnu-gmp" remote="sm" revision="5.1.3" />
   <project path="gold" name="gold" />
   <project path="cloog/cloog-current/isl" remote="cloog-isl" name="isl" revision="163646566efd07086ed4fbe99ecbf8d5bb8ebca0" />
-  <project path="isl/isl-currnet" remote="cloog-isl" name="isl" revision="163646566efd07086ed4fbe99ecbf8d5bb8ebca0" />
+  <project path="isl/isl-current" remote="cloog-isl" name="isl" revision="163646566efd07086ed4fbe99ecbf8d5bb8ebca0" />
   <project path="llvm" name="llvm" />
   <project path="mclinker" name="mclinker" />
   <project path="mpc/mpc-gnu" name="gnu-mpc" remote="sm" revision="1.0.2" />

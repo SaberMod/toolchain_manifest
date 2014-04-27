@@ -22,8 +22,8 @@
   <project path="build" name="toolchain_build" remote="sm" revision="master" />
   <project path="ccache" name="ccache" />
   <project path="clang" name="clang" />
-  <project path="cloog/cloog-current" remote="sm" name="cloog-current" revision="0.18.2" />
-  <project path="cloog/cloog-current/isl" remote="sm" name="libisl" revision="0.13" />
+  <project path="cloog/cloog-current" remote="sm" name="cloog-current" revision="master" />
+  <project path="cloog/cloog-current/isl" remote="sm" name="libisl" revision="master" />
   <project path="cloog/cloog-current/osl" remote="sm" name="osl" revision="master" />
   <project path="expat" name="expat" />
   <project path="gcc/gcc-SaberMod" name="GCC_SaberMod" remote="sm" revision="4.9.0" />

@@ -8,29 +8,25 @@
            fetch="https://github.com/SaberMod/" />
   <remote  name="gnu-bin-gdb"
            fetch="git://sourceware.org/git/" />
-  <remote  name="cloog-isl"
-           fetch="git://repo.or.cz/" />
   <default revision="master"
            remote="aosp"
            sync-j="4"
            sync-c="true" />
 
-  <project path="manifest" name="toolchain_manifest" remote="sm" revision="master" />
+  <project path="manifest" name="toolchain_manifest" remote="sm" revision="wip" />
   <project path="avr-libc" name="avr-libc" />
   <project path="benchmark" name="benchmark" />
-  <project path="binutils/binutils-gnu" name="binutils-gdb" remote="gnu-bin-gdb" revision="binutils-2_24-branch" />
-  <project path="build" name="toolchain_build" remote="sm" revision="master" />
+  <project path="binutils/binutils-gnu" name="binutils-saber" remote="sm" revision="2.24" />
+  <project path="build" name="toolchain_build" remote="sm" revision="wip" />
   <project path="ccache" name="ccache" />
   <project path="clang" name="clang" />
-  <project path="cloog/cloog-current" remote="sm" name="cloog-current" revision="master" />
-  <project path="cloog/cloog-current/isl" remote="sm" name="libisl" revision="master" />
-  <project path="cloog/cloog-current/osl" remote="sm" name="osl" revision="master" />
+  <project path="cloog" name="cloog" />
+  <project path="isl" name="isl" />
   <project path="expat" name="expat" />
   <project path="gcc/gcc-SaberMod" name="GCC_SaberMod" remote="sm" revision="4.9.0" />
   <project path="gdb/gdb-gnu" name="binutils-gdb" remote="gnu-bin-gdb" revision="gdb-7.7-branch" />
   <project path="gmp/gmp-gnu" name="gnu-gmp" remote="sm" revision="5.1.3" />
   <project path="gold" name="gold" />
-  <project path="isl/isl-current" remote="sm" name="libisl" revision="0.13" />
   <project path="llvm" name="llvm" />
   <project path="mclinker" name="mclinker" />
   <project path="mpc/mpc-gnu" name="gnu-mpc" remote="sm" revision="1.0.2" />

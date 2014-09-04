@@ -18,8 +18,8 @@
   <project path="build" name="toolchain_build" remote="sm" revision="master" />
   <project path="ccache" name="ccache" />
   <project path="clang" name="clang" />
-  <project path="cloog" name="cloog" />
-  <project path="isl" name="isl" />
+  <project path="cloog/cloog-0.18.1" name="cloog-current" remote="sm" revision="0.18.1" />
+  <project path="isl/isl-0.12.1" name="isl-current" remote="sm" revision="0.12.1" />
   <project path="expat" name="expat" />
   <project path="gcc/gcc-SaberMod" name="GCC_SaberMod" remote="sm" revision="4.8.4" />
   <project path="gdb/gdb-gnu" name="gdb-saber" remote="sm" revision="7.8" />

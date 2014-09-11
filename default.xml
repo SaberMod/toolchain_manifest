@@ -23,7 +23,7 @@
   <project path="expat" name="expat" />
   <project path="gcc/gcc-SaberMod" name="GCC_SaberMod" remote="sm" revision="4.8.4" />
   <project path="gdb/gdb-gnu" name="gdb-saber" remote="sm" revision="7.8" />
-  <project path="gmp/gmp-gnu" name="gnu-gmp" remote="sm" revision="5.1.3" />
+  <project path="gmp/gmp-gnu" name="gnu-gmp" remote="sm" revision="6.0.0" />
   <project path="gold" name="gold" />
   <project path="llvm" name="llvm" />
   <project path="mclinker" name="mclinker" />

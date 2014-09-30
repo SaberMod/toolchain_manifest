@@ -22,6 +22,7 @@
   <project path="isl/isl-0.12.1" name="isl-current" remote="sm" revision="0.12.1" />
   <project path="expat" name="expat" />
   <project path="gcc/gcc-SaberMod" name="GCC_SaberMod" remote="sm" revision="4.8.4" />
+  <project path="gcc/gcc-gnu-stable" name="GCC_SaberMod" remote="sm" revision="4.9.1" />
   <project path="gdb/gdb-gnu" name="gdb-saber" remote="sm" revision="7.8" />
   <project path="gmp/gmp-gnu" name="gnu-gmp" remote="sm" revision="6.0.0" />
   <project path="gold" name="gold" />

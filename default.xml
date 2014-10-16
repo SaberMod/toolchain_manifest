@@ -19,7 +19,7 @@
   <project path="build-scripts" name="sabermod-toolchain-build" remote="sm" revision="master" />
   <project path="ccache" name="ccache" />
   <project path="clang" name="clang" />
-  <project path="cloog/cloog-0.18.2" name="cloog-current" remote="sm" revision="0.18.1" />
+  <project path="cloog/cloog-0.18.2" name="cloog-current" remote="sm" revision="0.18.2" />
   <project path="isl/isl-0.13" name="isl-current" remote="sm" revision="0.13" />
   <project path="expat" name="expat" />
   <project path="gcc/gcc-SaberMod" name="GCC_SaberMod" remote="sm" revision="4.8.4" />

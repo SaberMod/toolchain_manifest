@@ -6,6 +6,8 @@
            review="https://android-review.googlesource.com/" />
   <remote  name="sm"
            fetch="https://github.com/SaberMod/" />
+  <remote  name="gnu-bin-gdb"
+           fetch="git://sourceware.org/git/" />
   <default revision="master"
            remote="aosp"
            sync-j="4"
@@ -14,7 +16,8 @@
   <project path="manifest" name="toolchain_manifest" remote="sm" revision="master" />
   <project path="avr-libc" name="avr-libc" />
   <project path="benchmark" name="benchmark" />
-  <project path="binutils/binutils-gnu" name="binutils-saber" remote="sm" revision="2.24" />
+  <project path="binutils/binutils-android" name="binutils-saber" remote="sm" revision="2.25" />
+  <project path="binutils/binutils-gnu" name="binutils-gdb" remote="gnu-bin-gdb" revision="binutils-2_25-branch" />
   <project path="build" name="toolchain_build" remote="sm" revision="master" />
   <project path="build-scripts" name="sabermod-toolchain-build" remote="sm" revision="master" />
   <project path="ccache" name="ccache" />
@@ -24,7 +27,8 @@
   <project path="expat" name="expat" />
   <project path="gcc/gcc-SaberMod" name="GCC_SaberMod" remote="sm" revision="4.8.4" />
   <project path="gcc/gcc-gnu-stable" name="GCC_SaberMod" remote="sm" revision="4.9.1" />
-  <project path="gdb/gdb-gnu" name="gdb-saber" remote="sm" revision="7.8" />
+  <project path="gdb/gdb-android" name="gdb-saber" remote="sm" revision="7.8" />
+  <project path="gdb/gdb-gnu" name="binutils-gdb" remote="gnu-bin-gdb" revision="gdb-7.8-branch" />  
   <project path="gmp/gmp-gnu" name="gnu-gmp" remote="sm" revision="6.0.0" />
   <project path="gold" name="gold" />
   <project path="llvm" name="llvm" />

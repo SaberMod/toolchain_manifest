@@ -8,6 +8,8 @@
            fetch="https://github.com/SaberMod/" />
   <remote  name="gnu-bin-gdb"
            fetch="git://sourceware.org/git/" />
+  <remote  name="gcc-mirror"
+           fetch="https://github.com/gcc-mirror/" />
   <default revision="master"
            remote="aosp"
            sync-j="4"
@@ -26,7 +28,7 @@
   <project path="isl/isl-0.13" name="isl-current" remote="sm" revision="0.13" />
   <project path="expat" name="expat" />
   <project path="gcc/gcc-SaberMod" name="GCC_SaberMod" remote="sm" revision="4.8.4" />
-  <project path="gcc/gcc-gnu-stable" name="GCC_SaberMod" remote="sm" revision="4.9.1" />
+  <project path="gcc/gcc-gnu-stable" name="gcc" remote="gcc-mirror" revision="gcc-4_8-branch" />
   <project path="gdb/gdb-android" name="gdb-saber" remote="sm" revision="7.8" />
   <project path="gdb/gdb-gnu" name="binutils-gdb" remote="gnu-bin-gdb" revision="gdb-7.8-branch" />  
   <project path="gmp/gmp-gnu" name="gnu-gmp" remote="sm" revision="6.0.0" />

@@ -11,37 +11,36 @@
   <remote  name="gcc-mirror"
            fetch="https://github.com/gcc-mirror/" />
   <default revision="master"
-           remote="aosp"
+           remote="sm"
            sync-j="4"
            sync-c="true" />
 
-  <project path="manifest" name="toolchain_manifest" remote="sm" revision="master" />
-  <project path="avr-libc" name="avr-libc" />
-  <project path="benchmark" name="benchmark" />
-  <project path="binutils/binutils-android" name="binutils-saber" remote="sm" revision="2.25" />
+  <project path="manifest" name="toolchain_manifest" />
+  <project path="avr-libc" name="avr-libc" remote"aosp" revision="master" />
+  <project path="benchmark" name="benchmark" remote"aosp" revision="master" />
+  <project path="binutils/binutils-android" name="binutils-saber" revision="2.25" />
   <project path="binutils/binutils-gnu" name="binutils-gdb" remote="gnu-bin-gdb" revision="binutils-2_25-branch" />
-  <project path="build" name="toolchain_build" remote="sm" revision="master" />
-  <project path="build-scripts" name="sabermod-toolchain-build" remote="sm" revision="master" />
-  <project path="ccache" name="ccache" />
-  <project path="clang" name="clang" />
-  <project path="cloog/cloog-0.18.2" name="cloog-current" remote="sm" revision="0.18.2" />
-  <project path="isl/isl-0.13" name="isl-current" remote="sm" revision="0.13" />
-  <project path="expat" name="expat" />
-  <project path="gcc/gcc-SaberMod" name="GCC_SaberMod" remote="sm" revision="4.8.4" />
+  <project path="build" name="toolchain_build" />
+  <project path="build-scripts" name="sabermod-toolchain-build" />
+  <project path="ccache" name="ccache" remote"aosp" revision="master" />
+  <project path="clang" name="clang" remote"aosp" revision="master" />
+  <project path="cloog/cloog-0.18.2" name="cloog-current" revision="0.18.2" />
+  <project path="isl/isl-0.13" name="isl-current" revision="0.13" />
+  <project path="expat" name="expat" remote"aosp" revision="master" />
+  <project path="gcc/gcc-SaberMod" name="GCC_SaberMod" revision="4.8.4" />
   <project path="gcc/gcc-gnu-stable" name="gcc" remote="gcc-mirror" revision="gcc-4_8-branch" />
-  <project path="gdb/gdb-android" name="gdb-saber" remote="sm" revision="7.8" />
+  <project path="gdb/gdb-android" name="gdb-saber" revision="7.8" />
   <project path="gdb/gdb-gnu" name="binutils-gdb" remote="gnu-bin-gdb" revision="gdb-7.8-branch" />  
-  <project path="gmp/gmp-gnu" name="gnu-gmp" remote="sm" revision="6.0.0" />
-  <project path="gold" name="gold" />
-  <project path="llvm" name="llvm" />
-  <project path="mclinker" name="mclinker" />
-  <project path="mpc/mpc-gnu" name="gnu-mpc" remote="sm" revision="1.0.2" />
-  <project path="mpfr/mpfr-gnu" name="gnu-mpfr" remote="sm" revision="3.1.2" />
-  <project path="perl" name="perl" />
-  <project path="polly" name="polly" />
-  <project path="ppl" name="ppl" />
-  <project path="python" name="python" />
-  <project path="valgrind" name="valgrind" />
-  <project path="yasm" name="yasm" />
+  <project path="gmp/gmp-gnu" name="gnu-gmp" revision="6.0.0" />
+  <project path="gold" name="gold" remote"aosp" revision="master" />
+  <project path="llvm" name="llvm" remote"aosp" revision="master" />
+  <project path="mclinker" name="mclinker" remote"aosp" revision="master" />
+  <project path="mpc/mpc-gnu" name="gnu-mpc" revision="1.0.2" />
+  <project path="mpfr/mpfr-gnu" name="gnu-mpfr" revision="3.1.2" />
+  <project path="perl" name="perl" remote"aosp" revision="master" />
+  <project path="polly" name="polly" remote"aosp" revision="master" />
+  <project path="python" name="python" remote"aosp" revision="master" />
+  <project path="valgrind" name="valgrind" remote"aosp" revision="master" />
+  <project path="yasm" name="yasm" remote"aosp" revision="master" />
 
 </manifest>

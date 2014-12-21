@@ -10,9 +10,6 @@ You will need some additional libraries to use the included toolchain during com
 
 Tested on Ubuntu the following packages are available:
 
-    * libcloog-isl-dev
-      Is a set of libraries for graphite that are used during run-time.
-
     * libcap-dev
       Installs a missing header capability.h file.
 
@@ -21,11 +18,7 @@ Tested on Ubuntu the following packages are available:
       
 So for example:
 
-    sudo apt-get install libcloog-isl-dev libcap-dev texinfo
-
-On Ubuntu 14.04+ you have to link a isl library using root:
-
-    sudo ln -s /usr/lib/x86_64-linux-gnu/libisl.so.10.2.2 /usr/lib/x86_64-linux-gnu/libisl.so.13
+    sudo apt-get install libcap-dev texinfo
 
 Create the Directories
 ----------------------
@@ -45,10 +38,22 @@ To build the SaberMod toolchains enter the scripts directory
 
     cd ~/sm-tc/build-scripts
 
+Build and install latest versions of cloog and isl
+----------------------
+
+These are a set of libraries for graphite flag optimizations that are used during run-time.  Ubuntu does not have these which is why they must compile and install.  This requires root access and will prompt you for your admin password when running this script.
+
+    bash cloog_isl-install
+
 View all available scripts for targets
 ----------------------
 
     ls
+
+To execute a build for a target
+----------------------
+
+bash "insert name of script"
 
 Checking for updates
 ----------------------

@@ -12,13 +12,35 @@ Tested on Ubuntu the following packages are available:
 
     * libcap-dev
       Installs a missing header capability.h file.
-
     * texinfo
       Program needed to create texi files.
-      
+
 So for example:
 
     sudo apt-get install libcap-dev texinfo
+
+If you are planning on compiling for arm ROM toolchains you'll need some kernel header files linked to /usr/include
+Firt find out what your latest kernel version is.
+
+    ls /usr/src
+
+Output should read simular to this
+
+    bbswitch-0.7                     linux-headers-3.16.0-28-generic
+    linux-headers-3.16.0-25          linux-headers-3.16.0-29
+    linux-headers-3.16.0-25-generic  linux-headers-3.16.0-29-generic
+    linux-headers-3.16.0-26
+    linux-headers-3.16.0-26-generic
+    linux-headers-3.16.0-28
+
+Go ahead and choose generic to link
+
+    sudo ln -s /usr/src/linux-headers-3.16.0-29-generic/include/asm-generic /usr/include/asm
+
+You can update with new kernel updates if it makes you feel fuzzy inside
+
+    sudo rm -rf /usr/include/asm
+    sudo ln -s /usr/src/linux-headers-(version name)-generic/include/asm-generic /usr/include/asm
 
 Create the Directories
 ----------------------
@@ -53,7 +75,7 @@ View all available scripts for targets
 To execute a build for a target
 ----------------------
 
-bash "insert name of script"
+    bash "insert name of script"
 
 Checking for updates
 ----------------------

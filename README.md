@@ -15,10 +15,24 @@ Tested on Ubuntu the following packages are available:
 
     * texinfo
       Program needed to create texi files.
-      
+
+    * automake and autoreconf
+      Two programs needed to configure the individual build components automatically.
+
 So for example:
 
-    sudo apt-get install libcap-dev texinfo
+    sudo apt-get install libcap-dev texinfo automake autoreconf
+
+Install cloog
+Note that this is required to build the toolchains, no exceptions.  DO NOT install the package libcloog-isl-dev
+There is newer versions available that I have compiled as prebuilts to be used in /usr/lib/x86_64-linux-gnu
+download it as a zip file from here:
+https://github.com/SaberMod/prebuilts_cloog_isl/archive/master.zip
+
+cd to where you have the repository downloaded
+    cd ~/Downloads
+    unzip prebuilts_cloog_isl-master.zip
+    sudo cp -R prebuilts_cloog_isl-master -f /usr/lib/x86_64-linux-gnu
 
 Create the Directories
 ----------------------

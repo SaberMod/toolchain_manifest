@@ -30,6 +30,7 @@ download it as a zip file from here:
 https://github.com/SaberMod/prebuilts_cloog_isl/archive/master.zip
 
 cd to where you have the repository downloaded
+
     cd ~/Downloads
     unzip prebuilts_cloog_isl-master.zip
     sudo cp -R prebuilts_cloog_isl-master -f /usr/lib/x86_64-linux-gnu

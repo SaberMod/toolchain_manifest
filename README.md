@@ -17,6 +17,7 @@ Tested on Ubuntu the following packages are available:
     * automake and autoreconf
       Two programs needed to configure the individual build components automatically.
     * libgmp-dev
+      Needed for cloog to compile (graphite flags tools)
 
 So for example:
 

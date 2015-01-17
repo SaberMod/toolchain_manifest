@@ -26,7 +26,6 @@
   <project path="cloog/cloog-0.18.3/isl" name="isl-current" />
   <project path="cloog/cloog-0.18.3/osl" name="osl-saber" />
   <project path="isl/isl-0.14" name="isl-current" />
-  <project path="expat" name="expat" remote="aosp" revision="master" />
   <project path="gcc/gcc-SaberMod" name="GCC_SaberMod" revision="4.8.5" />
   <project path="gdb/gdb-android" name="gdb-saber" revision="7.9" />
   <project path="gdb/gdb-gnu" name="binutils-gdb" remote="gnu-bin-gdb" revision="gdb-7.9-branch" />  

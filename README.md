@@ -39,6 +39,13 @@ cd to where you have the repository downloaded
 
 To install future updates, repeat this proccess.
 
+Link header files for multilib
+------------------------------
+
+In order to enable mutilib on ubuntu there's some header files that need to be linked from asm-generic.  asm-generic already has all the files needed but gcc wants it in asm.
+
+    sudo ln -s /usr/include/asm-generic /usr/include/asm;
+
 Create the Directories
 ----------------------
 

@@ -18,10 +18,14 @@ Tested on Ubuntu the following packages are available:
       Two programs needed to configure the individual build components automatically.
     * libgmp-dev
       Needed for cloog to compile (graphite flags tools)
+    * libexpat-dev
+      Needed for gdb compilation when it uses -lexpat (and it does use it).
+    * python-dev
+      Needed to use --with-python
 
 So for example:
 
-    sudo apt-get install libcap-dev texinfo automake autoreconf libgmp-dev
+    sudo apt-get install libcap-dev texinfo automake autoreconf libgmp-dev libexpat-dev python-dev;
 
 Installing cloog - Can be installed again
 ----------------------

@@ -14,7 +14,7 @@ Tested on Ubuntu the following packages are available:
       Installs a missing header capability.h file.
     * texinfo
       Program needed to create texi files.
-    * automake and autoreconf
+    * automake and autoconf
       Two programs needed to configure the individual build components automatically.
     * libgmp-dev
       Needed for cloog to compile (graphite flags tools)
@@ -25,7 +25,7 @@ Tested on Ubuntu the following packages are available:
 
 So for example:
 
-    sudo apt-get install libcap-dev texinfo automake autoreconf libgmp-dev libexpat-dev python-dev;
+    sudo apt-get install libcap-dev texinfo automake autoconf libgmp-dev libexpat-dev python-dev;
 
 Installing cloog - Can be installed again
 ----------------------

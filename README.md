@@ -64,7 +64,7 @@ Sync the repo
 Building toolchains
 ----------------------
 
-Do to recent copyright infringements from various open source projects, configuring and building the toolchains is now a private resource.  Only people that are wanting to contribute to the project will have access to these.  And will be subject to licensing violations if leaked.  Existing building resources will not be in violation.
+Due to recent copyright infringements from various open source projects, configuring and building the toolchains is now a private resource.  Only people that are wanting to contribute to the project will have access to these.  And will be subject to licensing violations if leaked.  Existing building resources will not be in violation.
 
 Checking for updates
 -----------------------

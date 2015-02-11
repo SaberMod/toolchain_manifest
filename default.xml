@@ -8,6 +8,8 @@
            fetch="https://github.com/SaberMod/" />
   <remote  name="gnu-bin-gdb"
            fetch="git://sourceware.org/git/" />
+  <remote  name="sm-bb"
+           fetch="git@bitbucket.org:SaberMod/" />
   <default revision="master"
            remote="sm"
            sync-j="4"
@@ -19,6 +21,7 @@
   <project path="binutils/binutils-android" name="binutils-saber" revision="2.25" />
   <project path="binutils/binutils-gnu" name="binutils-gdb" remote="gnu-bin-gdb" revision="binutils-2_25-branch" />
   <project path="build" name="toolchain_build" />
+  <project path="build-scripts" name="sabermod-toolchain-build.git" remote="sm-bb" />
   <project path="ccache" name="ccache" remote="aosp" revision="master" />
   <project path="clang" name="clang" remote="aosp" revision="master" />
   <project path="cloog/cloog-0.18.3" name="cloog-current" revision="0.18.3" />

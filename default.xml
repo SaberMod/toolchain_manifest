@@ -19,7 +19,6 @@
   <project path="binutils/binutils-android" name="binutils-saber" revision="2.25" />
   <project path="binutils/binutils-gnu" name="binutils-gdb" remote="gnu-bin-gdb" revision="binutils-2_25-branch" />
   <project path="build" name="toolchain_build" />
-  <project path="build-scripts" name="sabermod-toolchain-build" />
   <project path="ccache" name="ccache" remote="aosp" revision="master" />
   <project path="clang" name="clang" remote="aosp" revision="master" />
   <project path="cloog/cloog-0.18.3" name="cloog-current" revision="0.18.3" />

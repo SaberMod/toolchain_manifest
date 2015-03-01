@@ -4,12 +4,10 @@ SaberMod Toolchains Manifest
 Prerequisites - One time step
 ----------------------
 
-You should already have a android build environment set up on Linux
-
-You will need some additional libraries to use the included toolchain during compilation.  It is a good idea to make sure you have these packages installed.
+You will need some additional packages to use the included toolchain during compilation.  It is a good idea to make sure you have these packages installed.
 
 Tested on Ubuntu the following packages are available:
-
+    * build-essential
     * libcap-dev
       Installs a missing header capability.h file.
     * texinfo
@@ -25,7 +23,7 @@ Tested on Ubuntu the following packages are available:
 
 So for example:
 
-    sudo apt-get install libcap-dev texinfo automake autoconf libgmp-dev libexpat-dev python-dev;
+    sudo apt-get install libcap-dev texinfo automake autoconf libgmp-dev libexpat-dev python-dev build-essential;
 
 Installing cloog - Can be installed again
 ----------------------

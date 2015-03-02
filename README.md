@@ -8,6 +8,8 @@ You will need some additional packages to use the included toolchain during comp
 
 Tested on Ubuntu the following packages are available:
     * build-essential
+      Essential development packages
+    * gcc-multilib g++-multilib
     * libcap-dev
       Installs a missing header capability.h file.
     * texinfo
@@ -23,7 +25,7 @@ Tested on Ubuntu the following packages are available:
 
 So for example:
 
-    sudo apt-get install libcap-dev texinfo automake autoconf libgmp-dev libexpat-dev python-dev build-essential;
+    sudo apt-get install libcap-dev texinfo automake autoconf libgmp-dev libexpat-dev python-dev build-essential gcc-multilib g++-multilib;
 
 Installing cloog - Can be installed again
 ----------------------

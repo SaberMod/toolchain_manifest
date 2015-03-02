@@ -9,17 +9,24 @@ You will need some additional packages to use the included toolchain during comp
 Tested on Ubuntu the following packages are available:
     * build-essential
       Essential development packages
+
     * gcc-multilib g++-multilib
+
     * libcap-dev
       Installs a missing header capability.h file.
+
     * texinfo
       Program needed to create texi files.
-    * automake and autoconf
+
+     * automake and autoconf
       Two programs needed to configure the individual build components automatically.
+
     * libgmp-dev
       Needed for cloog to compile (graphite flags tools)
+
     * libexpat-dev
       Needed for gdb compilation when it uses -lexpat (and it does use it).
+
     * python-dev
       Needed to use --with-python
 

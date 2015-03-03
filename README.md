@@ -40,13 +40,13 @@ Installing cloog - Can be installed again
 Note that this is required to build the toolchains, NO EXCEPTIONS.  It is also usefull to have these installed for ROM building with SaberMod.  These help a lot for graphite flags, which you should be using (if not no point in using sm).  DO NOT install the package libcloog-isl-dev
 There is newer versions available that I have compiled as prebuilts to be used in /usr/lib/x86_64-linux-gnu
 download it as a zip file from here:
-https://github.com/SaberMod/prebuilts_cloog_isl/archive/master.zip
+https://github.com/SaberMod/sm-prebuilts/archive/master.zip
 
 cd to where you have the repository downloaded
 
     cd ~/Downloads
-    unzip prebuilts_cloog_isl-master.zip
-    sudo cp -R prebuilts_cloog_isl-master/lib/* -f /usr/lib/x86_64-linux-gnu
+    unzip sm-prebuilts-master.zip
+    sudo cp -R sm-prebuilts-master/cloog/lib/* -f /usr/lib/x86_64-linux-gnu
 
 To install future updates, repeat this proccess.
 

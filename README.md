@@ -88,6 +88,10 @@ https://github.com/SaberMod/arm-androideabi-4.8
 Compiled with modified AOSP gcc:
 https://github.com/SaberMod/aarch64-linux-android-4.9
 
+Mirrors for prebuilts:
+Note that GLIBCXX_3.4.20 is the same as master branches and GLIBCXX_3.4.19 is for LTS branches.
+https://basketbuild.com/devs/pbeeler/SaberMod/Toolchains
+
 Prerequisites - One time step
 ----------------------
 

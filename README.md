@@ -80,7 +80,19 @@ Sync the repo
 Building toolchains
 ----------------------
 
-Due to recent copyright infringements from various open source projects, configuring and building the toolchains is now a private resource.  Only people that are wanting to contribute to the project will have access to these.  And will be subject to licensing violations if leaked.  Existing building resources will not be in violation.
+The build scripts are no longer manitained often unless there is build breakage reported.
+
+cd ~/sm-tc/build-scripts
+
+View all available scripts for targets
+-----------------------
+
+    ls
+
+To execute a build for a target
+-----------------------
+
+bash "insert name of script"
 
 Checking for updates
 -----------------------

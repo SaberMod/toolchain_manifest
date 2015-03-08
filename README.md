@@ -12,6 +12,15 @@ Tested on Ubuntu the following packages are available:
 
     * gcc-multilib g++-multilib
 
+    * flex
+      http://flex.sourceforge.net/
+
+    * bison
+      http://www.gnu.org/software/bison/
+
+    * libncurses5-dev
+      http://download.gna.org/pdbv/demo_html/demo_2.0.10/package/libncurses5-dev_5.4-4.html
+
     * libcap-dev
       Installs a missing header capability.h file.
 
@@ -32,7 +41,7 @@ Tested on Ubuntu the following packages are available:
 
 So for example:
 
-    sudo apt-get install libcap-dev texinfo automake autoconf libgmp-dev libexpat-dev python-dev build-essential gcc-multilib g++-multilib;
+    sudo apt-get install libcap-dev texinfo automake autoconf libgmp-dev libexpat-dev python-dev build-essential gcc-multilib g++-multilib libncurses5-dev flex bison;
 
 Installing cloog - Can be installed again
 ----------------------
